@@ -17,12 +17,13 @@ puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
 
-def now_serving(deli)
-  if deli.length == 0 
+def now_serving(array)
+  if array.empty?
     puts "There is nobody waiting to be served!"
-  
-  else puts "#{deli.shift}"
+  else
+    puts "Currently serving #{array[0]}."
+    array.shift
+  end
 end
-
 
 
