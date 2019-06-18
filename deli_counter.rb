@@ -20,7 +20,7 @@ end
 def now_serving(deli,name)
   if deli.length == 0 
     puts "There is nobody waiting to be served!"
-  else puts #{name}
+  else puts name.unshift
 end
 end
 
