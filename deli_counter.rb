@@ -23,6 +23,6 @@ def now_serving(deli)
   end
   else puts "#{deli.shift}"
 end
-end
+
 
 
